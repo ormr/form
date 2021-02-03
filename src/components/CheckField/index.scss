@@ -1,0 +1,46 @@
+.check-field {
+  max-width: 611px;
+  display: flex;
+  align-items: center;
+
+  &__inner {
+    max-width: 252px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__label {
+    font-size: 21px;
+  }
+
+  &__input {
+    cursor: pointer;
+    margin: 0;
+  }
+
+  &__info {
+    padding-left: 10px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .check-field {
+    flex-direction: column;
+    margin: 0 auto;
+
+    &__label {
+      font-size: 16px;
+      padding-right: 12px;
+    }
+
+    &__inner {
+      text-align: center;
+      max-width: none;
+      justify-content: center;
+      padding-bottom: 12px;
+    }
+  }
+}

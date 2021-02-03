@@ -1,0 +1,15 @@
+.header {
+  max-width: 728px;
+  padding-bottom: 32px;
+
+  &__title {
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+
+    &_name {
+      color: #666;
+    }
+  }
+}

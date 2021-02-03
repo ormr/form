@@ -1,0 +1,15 @@
+.app-container {
+  padding-top: 90px;
+  max-width: 990px;
+  margin: 0 auto;
+}
+
+.app-form .input-field {
+  &:nth-child(2n) {
+    padding-top: 0;
+  }
+
+  &:nth-child(3n) {
+    padding-top: 32px;
+  }
+}
